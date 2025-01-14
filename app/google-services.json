@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "58156681484",
+    "project_id": "basededatos-bc243",
+    "storage_bucket": "basededatos-bc243.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58156681484:android:76c657e8eb68f16660a129",
+        "android_client_info": {
+          "package_name": "com.example.franciscafigueroaeva2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArzQEZSnEpFUjlUibRE_XmnseY2iSvhNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

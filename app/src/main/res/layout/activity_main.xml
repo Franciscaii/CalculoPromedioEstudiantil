@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/Asignaturas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="16dp"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rut:"
+            />
+
+        <EditText
+            android:id="@+id/editRut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="21.270.263-3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre:" />
+
+        <EditText
+            android:id="@+id/editNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sección:" />
+
+        <EditText
+            android:id="@+id/editSeccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="204dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nota 1"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editxt_nota1"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:digits="0123456789."
+                android:ems="10"
+                android:hint="7.0"
+                android:inputType="numberDecimal"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ponderación 1"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editxt_pon1"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint=""
+                android:inputType="number"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nota 2"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editxt_nota2"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:digits="0123456789."
+                android:ems="10"
+                android:hint="7.0"
+                android:inputType="numberDecimal"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ponderación 2"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editxt_pon2"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint=""
+                android:inputType="number"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nota 3"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editxt_nota3"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:digits="0123456789."
+                android:ems="10"
+                android:hint="7.0"
+                android:inputType="numberDecimal"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ponderación 3"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editxt_pon3"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint=""
+                android:inputType="number"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nota 4"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editxt_nota4"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:digits="0123456789."
+                android:ems="10"
+                android:hint="7.0"
+                android:inputType="numberDecimal"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ponderación 4"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/editxt_pon4"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint=""
+                android:inputType="number"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_gravity="center_horizontal"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:id="@+id/texvisituacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situación:"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:textSize="8dp" />
+
+        <Button
+            android:id="@+id/btnModificar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modificar"
+            android:textSize="8dp" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:textSize="8dp" />
+
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buscar"
+            android:textSize="8dp" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Lista de alumnos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+    <ListView
+        android:id="@+id/lstListaAlumnos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

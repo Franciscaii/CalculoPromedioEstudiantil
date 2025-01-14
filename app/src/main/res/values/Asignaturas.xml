@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valoresArray" >
+        <item>Ingrese Asignatura</item>>
+        <item>Aplicaciones Móviles Para Iot</item>
+        <item>Desarrollo De Videojuegos</item>
+        <item>Ingeniería De Software</item>
+        <item>Programación Back End</item>
+        <item>Taller De Diseño Y Desarrollo De Soluciones</item>
+    </string-array>
+</resources>
