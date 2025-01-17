@@ -47,13 +47,13 @@ Esta aplicación para Android permite gestionar las notas de los estudiantes en 
 - **Firebase Realtime Database** (Almacenamiento de datos)
 - **Android Studio** (Entorno de desarrollo)
 
+----
+En este video se muestra el funcionamiento detallado de la Calculadora de Promedio, incluyendo cómo ingresar los datos, calcular el promedio ponderado y visualizar los resultados. Además, se explican las validaciones implementadas para garantizar el correcto funcionamiento.
 
 <a href="https://youtu.be/of1wSnJt1sA?si=dHuETPcEENz0ZdcS" target="_blank">📹 Ver video: Calculadora de Promedio</a>
-[📹 Ver video: Calculadora de Promedio](https://youtu.be/of1wSnJt1sA?si=dHuETPcEENz0ZdcS)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/of1wSnJt1sA" 
-title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+---
 ## 📷 Vista previa 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="https://github.com/Franciscaii/CalculoPromedioEstudiantil/blob/main/WhatsApp%20Image%202025-01-14%20at%2016.04.32.jpeg" alt="Captura de pantalla" width="48%" />
