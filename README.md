@@ -48,10 +48,10 @@ Esta aplicación para Android permite gestionar las notas de los estudiantes en 
 - **Android Studio** (Entorno de desarrollo)
 
 ----
-<a href="https://youtu.be/of1wSnJt1sA?si=dHuETPcEENz0ZdcS" target="_blank"> ## 📹 Video Calculadora de Promedio</a>
-
-En este video se muestra el funcionamiento detallado de la Calculadora de Promedio, incluyendo cómo ingresar los datos, calcular el promedio ponderado y visualizar los resultados. Además, se explican las validaciones implementadas para garantizar el correcto funcionamiento.
-
+<a href="https://youtu.be/of1wSnJt1sA?si=dHuETPcEENz0ZdcS" target="_blank" style="display: inline-block; padding: 10px 15px; background-color: #ff0000; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    📹 Ver Video: Calculadora de Promedio
+</a>
+<p>En este video se muestra el funcionamiento detallado de la Calculadora de Promedio, incluyendo cómo ingresar los datos, calcular el promedio ponderado y visualizar los resultados. Además, se explican las validaciones implementadas para garantizar el correcto funcionamiento.</p>
 
 
 
