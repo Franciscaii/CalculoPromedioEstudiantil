@@ -55,7 +55,8 @@ En este video se muestra el funcionamiento detallado de la **Calculadora de Prom
 - Cómo ingresar los datos  
 - Cálculo del promedio ponderado  
 - Visualización de los resultados  
-- Validaciones implementadas para garantizar el correcto funcionamiento  
+- Validaciones implementadas para garantizar el correcto funcionamiento
+- Almacenamiento y visualizacion de datos en Firebase y en app
 
 🔗 **[Ver Video en YouTube](https://youtu.be/of1wSnJt1sA?si=dHuETPcEENz0ZdcS)**
 
